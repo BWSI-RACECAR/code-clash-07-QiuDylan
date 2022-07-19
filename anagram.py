@@ -31,10 +31,11 @@ class Solution:
         # return type: bool
 
         # TODO: Write code below to return a bool with the solution to the prompt
-        compare = []
+        a.lower()
+        b.lower()
         x = [a[i]for i in range (0,len(a))]
         x.sort()
-        y = [a[i] for i in range(0,len(a))]
+        y = [b[i] for i in range (0,len(b))]
         y.sort()
         if x == y:
             return True
